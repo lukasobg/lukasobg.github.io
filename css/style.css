@@ -137,7 +137,7 @@ html,body {
     margin-left: 50px;
 }
 #a-bio::before {
-    background: url(../img/julia.svg) no-repeat;
+    background: url(../img/julia_text.svg) no-repeat;
     transform: scale(1.2) rotate(-40deg);
     margin-left: 5px;
     margin-top: 25px;
