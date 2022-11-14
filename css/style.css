@@ -185,3 +185,78 @@ html,body {
     bottom: 130px;
     right: 65px;
 }
+
+
+
+/* Styling for mobile */
+@media only screen and (max-width: 450px) {
+    .about {
+        height: 100vh !important;
+        flex-direction: column;
+    }
+    .about img {
+        padding: 40px 0px;
+    }
+    .about-text {
+        margin: auto;
+        padding: 30px;
+    }
+
+    .project-wrapper {
+        height: 156vh;
+    }
+    .project-wrapper p {
+        text-align: center;
+        font-size: 0.9em;
+        line-height: 1.1em;
+        margin: 15px 0px;
+    }
+
+    .projects {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .project img {
+        margin: 0px;
+    }
+
+    #a-wh::before {
+        transform: scale(1.0) rotate(-40deg);
+        margin-left: 15px;
+        margin-top: -18px;
+    }
+    #a-bio::before {
+        transform: rotate(-40deg) scale(0.6);
+        margin-left: -8px;
+        margin-top: -22px;
+    }
+    #a-gol::before {
+        transform: rotate(-40deg) scale(1.0);
+        margin-left: 18px;
+        margin-top: -14px;
+    }
+
+
+    .overlay {
+        /* bottom: 130px;
+        right: 14px; */
+        font-size: 1.6em !important;
+        line-height: 1.3em !important;
+    }
+    .project:hover .overlay {
+        width: 330px !important;
+    }
+    #overlay1 {
+        bottom: 50px;
+    }
+    #overlay2 {
+        bottom: 55px;
+    }
+    #overlay3 {
+        bottom: 100px;
+        right: 13px;
+        right: 65px;
+    }
+    
+} 
