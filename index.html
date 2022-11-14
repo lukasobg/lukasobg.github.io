@@ -12,7 +12,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -20,9 +21,9 @@
     <div class="header">
         <img alt="CV_photo" src="img/CV_round.png">
         <div class="header-text">
-            <h3>Lukas Olenborg, 25</h3>
+            <p id="name">Lukas Olenborg, 25<p>
             <br>
-            <p><i>I am a Mathematics and Computer Science student at Aalto University. I am passionate about building things. Interested in optimization, data science and anything programming. Big fan of space industry, reading, speedcubing and Lex Fridman podcasts.</i></p>
+            <p>I am a Mathematics and Computer Science student at Aalto University. I am passionate about building things, optimization, data science and anything programming. Big fan of space industry, reading, speedcubing and Lex Fridman podcasts.</p>
         </div>
     </div>
     <div class="socmedia">
@@ -34,11 +35,20 @@
     </div>
 
     <div class="content">
-        <p><b>Below are some of my personal projects.</b></p>
+        <p id="proj-text">Below are some of my personal projects.</p>
         <div class="projects">
-            <a href="https://github.com/lukasobg/routing_problem"><img alt="warehouse_routing" src="img/roadmap_solution.png"></a>
-            <a href="https://github.com/lukasobg/biodiesel_optimization"><img alt="biodiesel_optimization" src="img/biodiesel.png"></a>
-            <a href="https://github.com/lukasobg/game-of-life"><img id="gol" alt="game_of_life" src="img/gol.png"></a>
+            <div class="project" id="proj1">
+                <a id="a-wh" href="https://github.com/lukasobg/routing_problem"><img id="wh" alt="warehouse_routing" src="img/roadmap_solution.png"></a>
+                <p class="overlay" id="overlay1">WAREHOUSE LOCATION-ROUTING MODEL</p>
+            </div>
+            <div class="project" id="proj2">
+                <a id="a-bio" href="https://github.com/lukasobg/biodiesel_optimization"><img id="bio" alt="biodiesel_optimization" src="img/biodiesel.png"></a>
+                <p class="overlay" id="overlay2">BIODIESEL PRODUCTION OPTIMIZATION MODEL</p>
+            </div>
+            <div class="project" id="proj3">
+                <a id="a-gol" href="https://github.com/lukasobg/game-of-life"><img id="gol" alt="game_of_life" src="img/gol.png"></a>
+                <p class="overlay" id="overlay3">CONWAY'S GAME OF LIFE</p>
+            </div>
         </div>
     </div>
 </body>
