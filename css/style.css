@@ -139,18 +139,18 @@ html,body {
 }
 
 /* Style prog language icons */
-#a-wh::before {
-    background: url(../img/py.svg) no-repeat;
-    transform: scale(1.4) rotate(-40deg);
-    margin-left: 46px;
-    margin-top: -2px;
-}
-#a-bio::before {
-    background: url(../img/julia.svg) no-repeat;
-    transform: rotate(-40deg) scale(0.84);
-    margin-left: 12px;
-    margin-top: -6px;
-}
+/* #a-wh::before { */
+/*     background: url(../img/py.svg) no-repeat; */
+/*     transform: scale(1.4) rotate(-40deg); */
+/*     margin-left: 46px; */
+/*     margin-top: -2px; */
+/* } */
+/* #a-bio::before { */
+/*     background: url(../img/julia.svg) no-repeat; */
+/*     transform: rotate(-40deg) scale(0.84); */
+/*     margin-left: 12px; */
+/*     margin-top: -6px; */
+/* } */
 #a-gol::before {
     background: url(../img/c.svg) no-repeat;
     transform: rotate(-40deg) scale(1.3);
