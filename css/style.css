@@ -32,6 +32,18 @@ html,body {
     font-size: 1.2em;
     line-height: 1.5;
 }
+#about-p::before {
+    content: '「';
+    font-size: 4em;
+    font-weight: 700;
+    color: #42e5ca;
+}
+#about-p::after {
+    content: '」';
+    font-size: 4em;
+    font-weight: 700;
+    color: #42e5ca;
+}
 #name {
     font-size: 1.2em;
     font-weight: 500;
@@ -135,15 +147,15 @@ html,body {
 }
 #a-bio::before {
     background: url(../img/julia.svg) no-repeat;
-    transform: rotate(-40deg) scale(0.8);
+    transform: rotate(-40deg) scale(0.84);
     margin-left: 12px;
     margin-top: -6px;
 }
 #a-gol::before {
     background: url(../img/c.svg) no-repeat;
-    transform: rotate(-40deg) scale(1.4);
-    margin-left: 52px;
-    margin-top: 4px;
+    transform: rotate(-40deg) scale(1.3);
+    margin-left: 46px;
+    margin-top: 2px;
 }
 
 #gol-img {
